@@ -21,7 +21,7 @@ socket.on("infoArea", (message) => {
 
 socket.on("id", (id) => {
   playerID = id;
-  infoArea.textContent = `Sie spielen als ${id}`;
+  infoArea.textContent = `You're playing as ${id}`;
 })
 
 //react at clicks in tic-tac-toe-field
