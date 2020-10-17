@@ -6,13 +6,13 @@ class GameState {
     this.activePlayer = "X";
     this.gameActive = true;
     this.messages = {
-      "firstConnection": "Bitte warten Sie auf Ihren Gegner!",
-      "secondConnection": "Zwei Spieler verbunden. Das Spiel kann beginnen!",
-      "maximumConnectionsReached": "Maximale Spielerzahl erreicht",
-      "invalidField": "Feld bereits belegt",
-      "invalidTurn": "Anderer Spieler am Zug",
-      "gameOver": "Das Spiel ist beendet",
-      "draw": "Unentschieden",
+      "firstConnection": "Wait for other player!",
+      "secondConnection": "Two players connected. The game starts!",
+      "maximumConnectionsReached": "Maximum players reached",
+      "invalidField": "Field already taken",
+      "invalidTurn": "Other players turn",
+      "gameOver": "The game is over",
+      "draw": "Draw",
       "clearInfoArea": "",
   };
   };
