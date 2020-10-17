@@ -1,0 +1,11 @@
+table {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.cell {
+  border: 1px solid black;
+  height: 90px;
+  width: 90px;
+  margin-bottom: 5px;
+}
